@@ -13,6 +13,10 @@
 	    res.render('login', { title: 'login' });
   });
 
+  router.get('/register',function(req,res){
+  		res.render('register',{title:'register'});
+  })
+
   /* ucenter */
   router.post('/ucenter', function(req, res) {
 		  var query = {name: req.body.name, password: req.body.password};

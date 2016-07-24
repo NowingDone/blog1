@@ -117,3 +117,26 @@ a {
         -ms-transform:rotateX(5deg) rotateY(360deg);	
       }
     }
+
+    .menuContent{
+      display:block;
+      width:235px;
+      height: 385px;
+      border:2px solid #ccc;
+      text-align:left;
+      padding-left: 20px;
+      padding-top: 35px;
+      font-size: 18px;
+      background-color: #caffff;
+    }
+    .item {
+     height: 88px;
+     padding-left: 20px;
+     cursor: pointer;
+}
+    .detail{
+      font-size: 15px;
+    }
+    .group{
+      font-size: 22px;
+    }
